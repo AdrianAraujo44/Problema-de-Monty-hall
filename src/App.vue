@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Gift from '.component/Gift'
+import Gift from './components/Gift'
 export default {
     name:'App',
     components:{ Gift }
@@ -17,7 +17,10 @@ export default {
     *{
         box-sizing : border-box;
         font-family: 'Montserrat', sans-serif;
-        background: linear-gradient(to right, #c33764, #1d2671);
+    }
+    body {
+         background: linear-gradient(to right, #c33764, #1d2671);
+         color: white;
     }
     #app {
         display: flex;
