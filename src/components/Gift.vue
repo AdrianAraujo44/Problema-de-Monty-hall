@@ -1,9 +1,9 @@
 <template>
-    <div class="" id="gift">
+    <div class="gift">
         <div class="gift-tie-1"></div>
         <div class="gift-tie-2"></div>
-        <div class="gift-tie-top"></div>
-        <div class="gift-tie-body"></div>
+        <div class="gift-top"></div>
+        <div class="gift-body"></div>
     </div>
 </template>
 
@@ -26,14 +26,14 @@ export default {
     height: 25px;
     background-color: #7aa944;
 }
-;gift-body {
+.gift-body {
     width:90px;
     height: 60px;
     background-color:#5c7e32;
 }
 .gift-tie-1 {
     position:absolute;
-    widows: 15px;
+    width: 15px;
     height: 85px;
     background-color: red;
 }
